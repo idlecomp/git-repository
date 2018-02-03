@@ -24,3 +24,6 @@ Total 17 (delta 4), reused 0 (delta 0)
 remote: Resolving deltas: 100% (4/4), done.
 To https://github.com/idlecomp/git-repository.git
    e765330..07e3c9b  master -> master
+
+
+   git remote add origin2 https://github.com/idlecomp/git-repository.git
