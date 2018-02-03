@@ -1,1 +1,31 @@
 reset
+C:\Users\Administrator\Desktop\git-repository>git add .\reset.txt
+
+C:\Users\Administrator\Desktop\git-repository>git commit -m "add reset"
+[master 56a7116] add reset
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 reset.txt
+
+C:\Users\Administrator\Desktop\git-repository>git status
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\Administrator\Desktop\git-repository>git add reset.txt
+
+C:\Users\Administrator\Desktop\git-repository>git status
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   reset.txt
+
+
+C:\Users\Administrator\Desktop\git-repository>git reset HEAD reset.txt
+Unstaged changes after reset:
+M       reset.txt
