@@ -1,0 +1,5 @@
+diff a/conflict.txt b/conflict.txt	(rejected hunks)
+@@ -0,0 +1,3 @@
++aaaa
++cccc
++dddd
